@@ -1,0 +1,28 @@
+.like__checkbox input[type="checkbox"],
+.like__checkbox .checked {
+  display: none;
+}
+.like__checkbox input[type="checkbox"]:checked ~ .checked {
+  display: inline-block;
+}
+.like__checkbox input[type="checkbox"]:checked ~ .unchecked {
+  display: none;
+}
+.like__checkbox{
+  z-index: 51;
+}
+.unchecked {
+  cursor: pointer;
+}
+.checked {
+  animation: heart 500ms;
+  background: radial-gradient(
+    circle,
+    rgba(147, 86, 220, 1) 0%,
+    rgba(255, 121, 218, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}

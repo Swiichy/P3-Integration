@@ -1,0 +1,38 @@
+@keyframes smooth-slideup {
+   0% {
+       transform: translateY(30px);
+   } 
+
+   50% {
+       opacity: 0.5;
+   }
+
+   100% {
+       opacity: 1;
+   }
+}
+
+.main__menu-information-card-info {
+    opacity: 0;
+}
+
+.first-smooth {
+    animation-delay: 300ms;
+    animation-name: smooth-slideup;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+.second-smooth {
+    animation-delay: 600ms;
+    animation-name: smooth-slideup;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+.third-smooth {
+    animation-delay: 900ms;
+    animation-name: smooth-slideup;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}

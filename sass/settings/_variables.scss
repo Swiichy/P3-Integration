@@ -1,0 +1,43 @@
+//Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+//Colors
+:root {
+    --primary-text-white: #ffff;
+    --primary-header: #F6F6F6;
+    --primary-header-bg: #EAEAEA;
+    --primary-font: #000000;
+    --primary-btn: #E16FDA;
+    --primary-icon: #A75DDC;
+    --primary-icon-navbar: #7E7E7E;
+    --primary-pub-bg: #99E2D0;
+    --primary-pub-text: #008766;
+    --primary-footer-bg: #353535;
+    --primary-logo-loca: #353535;
+    --primary-text-loca: #404040;
+    --primary-hover-btn: #F5EDFF;
+    --secondary-btn: #9356DC;
+}
+
+/* VARIABLES */
+//Box-shadow
+$box-shadow: 0px 6px 4px 1px rgba(196,188,196,1);
+$moz-shadow: 0px 6px 4px 1px rgba(196,188,196,1);
+$web-shadow: 0px 6px 4px 1px rgba(196,188,196,1);
+//Font
+$font-roboto: 'Roboto', sans-serif;
+$font-shrikhand: 'Shrikhand';
+//Animation
+$transition-all-200: all 200ms ease-in-out;
+//Position
+$relative: relative;
+$absolute: absolute;
+//Border card index
+$border-radius-top: 15px 15px 0 0;
+$border-radius-total: 15px 15px 15px 15px;
+//Images
+$la_palette_du_gout: url('../images/gout.jpg');
+$la_note_enchantee: url('../images/enchante.jpg');
+$a_la_francaise: url('../images/francaise.jpg');
+$le_delice_des_sens: url('../images/sens.jpg');
